@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicación IBAN</title>
+    <div id="cabeza">
+      <div id="titulo">
+        <img
+          id="moneda1"
+          src="https://images.emojiterra.com/twitter/v14.0/1024px/1fa99.png"
+          alt="moneda2"
+        />
+        <h1>BANCO DE ESPAÑA</h1>
+        <img
+          id="moneda2"
+          src="https://images.emojiterra.com/twitter/v14.0/1024px/1fa99.png"
+          alt="moneda1"
+        />
+      </div>
+    </div>
+  </head>
+  <body>
+    <div id="app">
+      <div id="general">
+        <h3>Introduzca el IBAN</h3>
+        <div id="contenedor1">
+          <input type="text" id="cajaTexto" />
+          <label for="cajaTexto"></label>
+          <button id="button"></button>
+        </div>
+        <div id="contenedor2">
+          <ul>
+            <h3 id="formado"></h3>
+            <h3 id="valido"></h3>
+            <h3 id="banco"></h3>
+            <h3 id="sucursal"></h3>
+            <h3 id="numeroControl"></h3>
+            <h3 id="numeroCuenta"></h3>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
